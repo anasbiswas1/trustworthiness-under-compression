@@ -1,0 +1,14 @@
+{
+  "anchor": 0,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "weighting": "tempered sqrt",
+  "split_seed": 42,
+  "dataset": "TON_IoT network",
+  "rare_class": "MITM"
+}
