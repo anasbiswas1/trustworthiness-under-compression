@@ -1,0 +1,10 @@
+{
+  "n_per_class": 80,
+  "bg_k": 50,
+  "nsamples": 1500,
+  "B_boot": 1000,
+  "eval_n": 640,
+  "explainer": "KernelSHAP",
+  "attribution_target": "true class",
+  "seed": 0
+}
