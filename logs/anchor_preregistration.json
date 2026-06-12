@@ -1,0 +1,19 @@
+{
+  "anchor_seed": 0,
+  "rule": "lowest seed index; fixed by rule prior to analysis; not informed by any downstream metric",
+  "all_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "roles": {
+    "anchor": "seed 0 \u2014 reference for M1-M3 attribution comparison",
+    "null_band": "all 5 seeds pairwise \u2014 Control 1 retraining variance"
+  },
+  "weighting": "tempered sqrt-inverse-frequency, mean-normalised",
+  "split_seed": 42,
+  "data": "full CICIoT2023",
+  "timestamp_utc": "2026-06-12T16:14:52.965553+00:00"
+}
