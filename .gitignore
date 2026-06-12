@@ -1,0 +1,23 @@
+# Data — never commit (large; lives in Drive only)
+data/raw/
+data/cache/
+*.parquet
+*.csv
+
+# Model checkpoints & scalers (large binaries; Drive only)
+models/*.keras
+models/*.h5
+models/*.joblib
+models/*.tflite
+
+# Notebook execution cruft
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
